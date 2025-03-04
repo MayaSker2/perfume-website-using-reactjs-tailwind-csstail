@@ -4,10 +4,10 @@ import "aos/dist/aos.css";
 import Navbar from './Component/Navbar/Navbar';
 import Home from './Component/Home/Home';
 import Services from './Component/Services/Services';
-// import AppStore from './Component/AppStore/AppStore';
+import AppStore from './Component/AppStore/AppStore';
 // import Testimonial from './Component/Testimonial/Testimonial';
 // import Footer from './Component/Footer/Footer';
-// import Banner from './Component/Banner/Banner';
+import Banner from './Component/Banner/Banner';
 
 const App = () => {
   useEffect(() =>{
@@ -23,9 +23,9 @@ const App = () => {
       <Navbar/>
       <Home/>
       <Services/>
-      {/* <Banner/>
+      <Banner/>
       <AppStore/>
-      <Testimonial/>
+      {/* <Testimonial/>
       <Footer/>  */}
     </div>
   )
