@@ -5,8 +5,8 @@ import Navbar from './Component/Navbar/Navbar';
 import Home from './Component/Home/Home';
 import Services from './Component/Services/Services';
 import AppStore from './Component/AppStore/AppStore';
-// import Testimonial from './Component/Testimonial/Testimonial';
-// import Footer from './Component/Footer/Footer';
+import Testimonial from './Component/Testimonial/Testimonial';
+import Footer from './Component/Footer/Footer';
 import Banner from './Component/Banner/Banner';
 
 const App = () => {
@@ -25,8 +25,8 @@ const App = () => {
       <Services/>
       <Banner/>
       <AppStore/>
-      {/* <Testimonial/>
-      <Footer/>  */}
+      <Testimonial/>
+      <Footer/> 
     </div>
   )
 }
